@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+body,
+html {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  display: flex;
+
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header {
+  box-shadow: 0 0 10px gray;
+  padding: 20px 0;
+}
+
+header nav .sol-hisse .logo img {
+  width: 120px;
+}
+header nav .sol-hisse {
+  display: flex;
+  align-items: center;
+}
+nav .sol-hisse .linkler a {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+.linkler {
+  display: flex;
+  gap: 20px;
+}
+header nav .sag-hisse {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.sag-hisse .xerite {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease-in;
+}
+.xerite:hover {
+  color: #006241;
+}
+.xerite p {
+  font-weight: 700;
+}
+.sag-hisse .buttons {
+  display: flex;
+  gap: 20px;
+}
+.sag-hisse .buttons button {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  background-color: inherit;
+}
+.buttons button:hover {
+  background-color: #006241;
+  color: white;
+}
+.sag-hisse .buttons .join {
+  background-color: black;
+  color: white;
+}
+.sag-hisse .buttons .join:hover {
+  background-color: #006241;
+  color: white;
+}
+.first {
+    display: flex;
+    align-items: center;
+    background-color: #006241;
+    width: 1400px;
+    margin: 40px auto;
+}
+.first .latte img{
+width: 700px;
+}
+.first .yazi{
+    width: 100%;
+display: flex; 
+flex-direction: column;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+.first .yazi h3{
+    color: white;
+    font-size: 35px;
+}
+.first .yazi p{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+.first button{
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: inherit;
+    color: white;
+}
+
+
+.second {
+    display: flex;
+    align-items: center;
+    background-color: #A3029A;
+    width: 1400px;
+    margin: 40px auto;
+}
+.second .ice-cofees img{
+width: 700px;
+}
+.second .yazi{
+    width: 100%;
+display: flex; 
+flex-direction: column;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+.second .yazi h3{
+    color: white;
+    font-size: 50px;
+}
+.second .yazi p{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+.second button{
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: inherit;
+    color: white;
+}
+.third {
+    display: flex;
+    align-items: center;
+    background-color: #D6E342;
+    width: 1400px;
+    margin: 40px auto;
+}
+.third .orange img{
+width: 700px;
+}
+.third .yazi{
+    width: 100%;
+display: flex; 
+flex-direction: column;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+.third .yazi h3{
+    color: black;
+    font-size: 35px;
+}
+.third .yazi p{
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+.third button{
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: inherit;
+    color: black;
+}
